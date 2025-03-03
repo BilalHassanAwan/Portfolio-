@@ -74,3 +74,13 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #58A6FF;
+}
