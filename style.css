@@ -64,7 +64,7 @@ button:hover {
     background: #161B22;
     margin: 20px auto;
     padding: 20px;
-    width: 60%;
+    width: 80%;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
@@ -83,4 +83,32 @@ footer {
     display: block;
     margin: 10px auto;
     border: 3px solid #58A6FF;
+}
+
+/* Upload Button Styling */
+.upload-label {
+    display: block;
+    background: #1F6FEB;
+    color: white;
+    padding: 8px;
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#profileUpload {
+    display: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 90%;
+    }
 }

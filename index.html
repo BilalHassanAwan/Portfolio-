@@ -28,7 +28,9 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <img src="profile.jpg" alt="Bilal Hassan Awan" class="profile-pic">
+        <label for="profileUpload" class="upload-label">Upload Profile Picture</label>
+        <input type="file" id="profileUpload" accept="image/*" onchange="previewImage(event)">
+        <img id="profilePic" src="myimg.jpg" alt="Bilal Hassan Awan" class="profile-pic">
         <p>I'm Bilal Hassan Awan, a cybersecurity expert, web developer, and SEO specialist passionate about AI, security, and digital growth.</p>
         <p><strong>Experience:</strong> Currently pursuing Computer Science at GIKI (2nd Semester).</p>
     </section>
